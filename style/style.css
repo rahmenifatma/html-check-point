@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto" sans-serif;
+  line-height: 1.6;
+  background-color: rgb(130, 227, 115);
+  color: aliceblue;
+}
+.navbar {
+  background-color: rgb(23, 242, 242);
+  padding: 10px 0;
+  text-align: center;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: blueviolet;
+
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.navbar ul li a :hover {
+  background-color: azure;
+}
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: aqua;
+  border: 1px solid;
+}
+section h2 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+section img {
+  max-width: 100%;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+
+  width: 100%;
+  border: 1px;
+  font-size: 10px;
+}
+form button {
+  background-color: black;
+  color: bisque;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px;
+}
+form button:hover {
+  background-color: aquamarine;
+}
+footer {
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+footer a {
+  color: antiquewhite;
+  text-decoration: none;
+  margin: 10px;
+}
+footer a :hover {
+  text-decoration: underline;
+}
